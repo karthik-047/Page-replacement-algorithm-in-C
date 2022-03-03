@@ -15,7 +15,7 @@ Overiew:
 		Implementation: In addition to the age[] array, an array is used to store the ref bit of the pages. It is made 0 when the page is first called. In case of a hit, its ref bit is made 1. During replacement, the ref bit of the pages in cache is also checked along with their age. The oldest page with reference bit 0 is chosen for replacement.
 		
 Files:
-    paging_sys.h  - Header files and function, global variable declaration.
+  	paging_sys.h  - Header files and function, global variable declaration.
 	paging_sys.c  - Main source code with the replacement algorithms.
 	helper_fn.c   - Source code containing helper functions for the main functions.
 	makefile  -  The recipe for the compilation of source code with appropriate dependencies.
