@@ -16,7 +16,8 @@ Overiew:
 		
 
 Files:
-  	paging_sys.h  - Header files and function, global variable declaration.
+
+	paging_sys.h  - Header files and function, global variable declaration.
 	paging_sys.c  - Main source code with the replacement algorithms.
 	helper_fn.c   - Source code containing helper functions for the main functions.
 	makefile  -  The recipe for the compilation of source code with appropriate dependencies.
