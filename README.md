@@ -1,6 +1,6 @@
 
 
-								###CSCE_611 Exam 1: 15) Implementation of paging system in C###
+								CSCE_611 Exam 1: 15) Implementation of paging system in C
 
 		
 Overiew:
