@@ -6,16 +6,15 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-int ref_string[24];
-int mem[8][25];
-int fault[24];
-int ref_bit[8];
+int ref_string[24];   //variable to store the reference string
+int mem[8][25];		  //variable to store the pages in the cache and main memory
+int fault[24];		  //variable to store the page hit/fault - 1/0
+int ref_bit[8];       //variable to store reference bit of the pages
 
-void fifo(); 
-void second();
+void fifo();          
+void second_chance();
 void lru();
 int check_cache(int);
-int fetch_mem(int);
 int load_init(int);
 int hit_loc(int);
 int check_2mem(int);
