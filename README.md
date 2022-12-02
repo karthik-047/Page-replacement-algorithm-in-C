@@ -26,7 +26,7 @@ Files:
 	paging_sys.c  - Main source code with the replacement algorithms.
 	helper_fn.c   - Source code containing helper functions for the main functions.
 	makefile  -  The recipe for the compilation of source code with appropriate dependencies.
-	krishnamoorthynatarajanke_exam1.exe - Executable generated after compilation.
+	paging_sys.exe - Executable generated after compilation.
 
 
 Compilation:
@@ -36,7 +36,7 @@ Compilation:
 	
 Usage:
 
-	- ./krishnamoorthynatarajanke_exam1.exe
+	- ./paging_sys.exe
 	- Choose the options:
 		1 for FIFO
 		2 for LRU
